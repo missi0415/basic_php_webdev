@@ -2,12 +2,15 @@
 
 require("../app/functions.php");
 
+$message = filter_input(INPUT_GET,"message");
+$username = filter_input(INPUT_GET,"username");
+
 include("../app/_parts/_header.php");
 
 ?>
 
-<p><?= h($message); ?></p>
-<p><a href = "index.php"></a></p>
+<p><?= h($message); ?> by <?= h($username); ?></p>
+<p><a href = "index.php">Go back</a></p>
 
 
 <?php
