@@ -8,11 +8,9 @@ include("../app/_parts/_header.php");
 
 ?>
 <form action = "result.php" method="get">
-  <select name = "colors[]" multiple>
-    <option value="orange">Orange</option>
-    <option value="pink">Pink</option>
-    <option value="gold">Gold</option>
-  </select>
+  <label><input type = "checkbox" name="colors[]" value="orange"> Orange</label>
+  <label><input type = "checkbox" name="colors[]" value="pink"> Pink</label>
+  <label><input type = "checkbox" name="colors[]" value="gold"> Gold</label>
   <button>Send</button>
 </form>
 
