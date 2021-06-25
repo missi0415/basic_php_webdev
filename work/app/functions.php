@@ -9,7 +9,7 @@ function h($str)
 function createToken()
 {
   if (!isset($_SESSION["token"])){
-    $_SESSION["token"] = bi2hex(random_bytes(32));
+    $_SESSION["token"] = bin2hex(random_bytes(32));
     //random_bytes(引数)ランダムな文字列の生成
     
   }
