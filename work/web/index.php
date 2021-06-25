@@ -11,7 +11,8 @@ include("../app/_parts/_header.php");
   <label><input type = "radio" name="color" value="orange"> Orange</label>
   <label><input type = "radio" name="color" value="pink"> Pink</label>
   <label><input type = "radio" name="color" value="gold"> Gold</label>
-  <button>Send</button>
+  <button>Post</button>
+  <a href="reset.php">[reset]</a>
 </form>
 
 
